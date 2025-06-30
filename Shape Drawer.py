@@ -1,8 +1,8 @@
 from tkinter import *
 import random
+import turtle
 #Turtle (Canvas)
 def Shape(length, side):
-    import turtle
     X = turtle.Turtle()
     X.speed(1)
     for n in range(side):
